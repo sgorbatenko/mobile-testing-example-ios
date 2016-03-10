@@ -9,7 +9,10 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/resources/"}, glue = {"com.stas.mobile.testing.application.example.steps"})
+@CucumberOptions(features = {"src/test/resources/features"}, glue = {
+    "com.stas.mobile.testing.application.example.steps"}, tags = {
+        "@new_feature"})
 public class AcceptanceSuiteTest extends BaseAppiumTest
 {
 }
+

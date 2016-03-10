@@ -1,4 +1,5 @@
-﻿Feature: Compute
+@ignore﻿
+Feature: Compute
   In order to use Appium in my project, I want to compute expressions
  
   Scenario Outline: Compute button check
